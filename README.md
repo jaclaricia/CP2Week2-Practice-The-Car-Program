@@ -61,8 +61,8 @@ public class Main {
 		
 		//User input battery level
 		System.out.print("Enter Battery:");
-	    eCar.setBattery(scan.nextInt());
-	    int battery = eCar.getBattery();
+	   	eCar.setBattery(scan.nextInt());
+	   	int battery = eCar.getBattery();
 	  
 	    
 		System.out.println("Battery: " + battery + "%");
