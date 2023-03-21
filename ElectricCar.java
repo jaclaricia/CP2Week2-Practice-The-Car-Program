@@ -3,11 +3,14 @@ package Week1;
 public class ElectricCar extends Car{
 	private int batteryLevel = 0;
 	
+	
+	//Constructor
 	public ElectricCar(String maker, String model, int year, int batteryLevel) {
 		super(maker, model, year);
 		this.batteryLevel = batteryLevel;
 	}
 	
+	//Conditional Statements for electric car battery level
 	public void start() {
 		if(batteryLevel == 0) {
 			System.out.println("Empty Battery");
