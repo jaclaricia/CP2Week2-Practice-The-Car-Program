@@ -13,7 +13,6 @@ public class Car {
 		this.isRunning = false;
 	}
 	
-	
 	public void start() {
 		if(isRunning) {
 			System.out.println("The car is already running.");
